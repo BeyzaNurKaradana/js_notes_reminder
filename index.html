@@ -247,15 +247,15 @@
         //WHILE LOOPS
         // 0 dan 9 kadar kadar yazdıralım.
 
-        /* i = 0;
+        /* let i = 0;
         while (i<10) {
             console.log(i);
             i++;
         } */
 
         //break ile bir döngüyü belli bi yerde durdurmak.
-        
-        /* i = 0;
+
+        /* let i = 0;
         while (i < 10) {
             console.log(i);
             i++;
@@ -266,9 +266,9 @@
 
         //while döngüsü ile array de çalışma
 
-        /* arr = ["beyza", "nur", "karadana"];
+        /* let arr = ["beyza", "nur", "karadana"];
 
-        i = 0
+        let i = 0
         while (i < arr.length) {
             console.log(arr[i]);
             i++;
@@ -276,9 +276,9 @@
 
         //bir array yaratalım while ile
 
-        /* arr = [];
+        /* let arr = [];
 
-        i = 0;
+        let i = 0;
         while (i<=100) {
             arr.push(i);
             i++;
@@ -286,7 +286,54 @@
 
         console.log(arr); */
 
+        //FOOR LOOPS
+
+        /* for (let i = 0; i < 10; i++) {
+            console.log(i);
+            if (i == 7) {
+                break;
+            }
+
+        }  */
+
         
+        //array içerisinde belli bir eleman var mı yok mu for ile onu bulalım.
+        /* function findInArray(arr, value) {
+            for (let i = 0; i< arr.length; i++) {
+                if (arr[i]== value) {
+                    return true;
+                }
+                
+            }
+            return false;
+        }
+
+        let arr = [1,2,3,4,5,6,7,"tim",true];
+        console.log(findInArray(arr,5))
+ */
+
+        /* function nsquared(n) {
+            return n**2
+        }
+
+        console.log(nsquared(6)) */
+
+        //FOR OF FOR EACH 
+        
+        /* arr = ["tim", "joe","sam"]; 
+        for(let element of arr){
+            console.log(element);
+        }
+
+        arr = ["tim", "joe","sam"]; 
+        for (let i = 0; i < arr.length; i++) {
+            console.log(arr[i]);
+            
+        } */
+
+        //SETS unordered collection of unique elements
+
+
 
 
 
